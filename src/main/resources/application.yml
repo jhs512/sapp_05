@@ -1,2 +1,7 @@
-server:
-  port: 8090
+spring:
+  profiles:
+    active: dev
+    include: secret
+custom:
+  site:
+    name: "My Site"
